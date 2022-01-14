@@ -2,15 +2,18 @@ header {
   background-color: grey;
   padding: 30px;
 }
+
 ul {
   text-decoration: none;
   list-style-type: none;
   padding-left: 0;
 }
+
 .menu__list {
   display: flex;
   justify-content: space-around;
 }
+
 a {
   text-decoration: none;
   border: 1px solid tomato;
@@ -29,4 +32,35 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 20px;
+}
+
+.main-item {
+  display: flex;
+  width: 350px;
+  background-color: turquoise;
+  margin-top: 10px;
+  img {
+    width: 128px;
+    height: 128px;
+    margin-right: 10px;
+    margin-top: 7px;
+    margin-left: 7px;
+  }
+}
+
+.item-text {
+  font-size: 15px;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+
+  a {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+}
+.active {
+  background-color: red;
 }
